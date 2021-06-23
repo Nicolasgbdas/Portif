@@ -1,0 +1,11 @@
+.body{
+    align-items: center;
+}
+.menu-home{
+    display: flex;
+    background:#2B2A2A;
+    justify-content: space-between;
+}
+.home-portf{
+    display: flex;
+}
