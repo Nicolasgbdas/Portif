@@ -1,11 +1,77 @@
-.body{
-    align-items: center;
+:root {
+  --white: #ffffff;
+  --darker-black: #151414;
+  --lighter-black: #2b2a2a;
 }
-.menu-home{
-    display: flex;
-    background:#2B2A2A;
-    justify-content: space-between;
+body{
+  background-color: rebeccapurple;
+  width: 100%;
+  height: 100%;
 }
-.home-portf{
-    display: flex;
+/*reset css*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Fenix", serif;
+  font-style: normal;
+  font-weight: normal;
+  color: var(--white);
+}
+.menu-home {
+  background: var(--lighter-black);
+}
+.aba-de-navegação {
+  display: flex;
+  align-items: center;
+  font-size: 40px;
+  justify-content: space-around;
+  min-height: 30px;
+}
+.aba-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  width: 35%;
+}
+.link-menu {
+  text-align: center;
+}
+.home-portf {
+  display: flex;
+  background: var(--darker-black);
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 440px;
+}
+.social-midia {
+  display: flex;
+  text-align: center;
+}
+.social-links {
+  list-style: none;
+}
+
+.sobre {
+  display: flex;
+  background: var(--lighter-black);
+  justify-content: center;
+  flex-direction: column;
+}
+
+.projetos {
+  display: flex;
+  background: var(--lighter-black);
+  justify-content: center;
+  flex-direction: column;
+}
+.contato {
+  display: flex;
+  background: var(--lighter-black);
+  justify-content: center;
+  flex-direction: column;
 }
